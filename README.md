@@ -87,13 +87,6 @@ uv run src/main.py
 ```
 *(O `python src/main.py` si usaste el método tradicional).*
 
-### 2. Número Faltante (CLI)
-Para ejecutar la aplicación que calcula el número extraído de un conjunto de 100 números:
-```bash
-uv run src/numero_faltante/numero_faltante.py <numero_a_extraer>
-```
-Ejemplo: `uv run src/numero_faltante/numero_faltante.py 45`
-
 ## Decisiones Técnicas y Retos
 
 ### SQLAlchemy
