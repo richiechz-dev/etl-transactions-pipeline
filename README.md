@@ -123,6 +123,6 @@ Durante el análisis se detectó un registro con el identificador "*******". Se 
 El sistema fue diseñado para ser agnóstico a la base de datos. Gracias a que existe un proceso de normalización y limpieza en la capa intermedia del pipeline, es posible migrar de SQLite a motores más robustos como PostgreSQL o MySQL con cambios mínimos en la configuración, manteniendo siempre la integridad de la información procesada.
 
 ### Nota final
-Para este desafío, se decidió priorizar la Sección 1 (ETL y Modelado SQL). El enfoque fue garantizar un sistema robusto, escalable y con una arquitectura limpia en el procesamiento de datos
+Para este desafío, se decidió priorizar la Sección 1 (ETL y Modelado SQL) sobre la Sección 2. El enfoque fue garantizar un sistema robusto, escalable y con una arquitectura limpia en el procesamiento de datos. Con la idea final de iterar y completar el avance de la Sección 2.
 
 
