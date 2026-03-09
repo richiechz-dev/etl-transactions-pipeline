@@ -1,7 +1,7 @@
 # Prueba Técnica - NT Group
 
 ## Descripción
-Este proyecto implementa una prueba técnica que consiste en dos partes principales: un pipeline ETL (Extracción, Transformación y Carga) diseñado para procesar datos de transacciones de compañías y un script CLI para resolver un problema de lógica matemática, específicamente encontrar un número faltante en una secuencia. El objetivo es demostrar habilidades en procesamiento de datos, modelado de bases de datos y desarrollo de aplicaciones CLI.
+Este proyecto implementa una prueba técnica que consiste en dos partes principales: un pipeline ETL (Extracción, Transformación y Carga) diseñado para procesar datos de transacciones de compañías.
 
 ## Herramientas Utilizadas
 - **Python:** Lenguaje principal.
@@ -45,8 +45,6 @@ El proyecto se organiza modularmente:
 │   │   └── transform.py # Transforma y carga datos limpios.
 │   ├── models/ # Definiciones de modelos de DB con SQLAlchemy.
 │   │   └── models.py # Modelos para tablas Companies y Charges.
-│   ├── numero_faltante/ # Módulo para resolver el problema del número faltante.
-│   │   └── numero_faltante.py # Lógica para encontrar el número faltante.
 │   ├── database_config.py # Configuración general de la base de datos.
 │   └── main.py # Orquestador principal del proceso ETL.
 ├── .gitignore
