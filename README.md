@@ -14,6 +14,8 @@ Este proyecto implementa una prueba técnica que consiste en dos partes principa
 ## Análisis Inicial y Transformación (Google Colab)
 *Nota sobre el proceso inicial:* La exploración inicial de los datos y las primeras pruebas de limpieza y transformación se realizaron utilizando Google Colab. Esto permitió iterar rápidamente sobre el conjunto de datos crudo antes de consolidar el script final en Python (`src/etl/transform.py`).
 
+[Ver análisis inicial en Google Colab](https://colab.research.google.com/drive/1JYx5WRJYXqHjDh2fZrWXKg5BX3dHMhs5?usp=sharing)
+
 ## Arquitectura de la Base de Datos
 La prueba tecnica divide la información cruda en dos tablas principales relacionadas, teniendo en cuenta que una compañia tiene muchos cargos. Una realcion de uno a mcuhos. Normalizando así los datos:
 1.  **Companies:** Almacena la información de las compañías.
@@ -121,3 +123,8 @@ Durante el análisis se detectó un registro con el identificador "*******". Se 
 
 ### Conclusión Importante
 El sistema fue diseñado para ser agnóstico a la base de datos. Gracias a que existe un proceso de normalización y limpieza en la capa intermedia del pipeline, es posible migrar de SQLite a motores más robustos como PostgreSQL o MySQL con cambios mínimos en la configuración, manteniendo siempre la integridad de la información procesada.
+
+### Nota final
+Para este desafío, se decidió priorizar la Sección 1 (ETL y Modelado SQL). El enfoque fue garantizar un sistema robusto, escalable y con una arquitectura limpia en el procesamiento de datos
+
+
