@@ -1,7 +1,7 @@
 # Prueba Técnica - NT Group
 
 ## Descripción
-Este proyecto implementa una prueba técnica que consiste en dos partes principales: un pipeline ETL (Extracción, Transformación y Carga) diseñado para procesar datos de transacciones de compañías.
+Pipeline ETL para procesamiento de transacciones financieras, con normalización de datos, carga a base de datos relacional y generación de vistas analíticas.
 
 ## Herramientas Utilizadas
 - **Python:** Lenguaje principal.
