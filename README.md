@@ -1,4 +1,3 @@
-# Prueba Técnica - NT Group
 
 ## Descripción
 Pipeline ETL para procesamiento de transacciones financieras, con normalización de datos, carga a base de datos relacional y generación de vistas analíticas.
